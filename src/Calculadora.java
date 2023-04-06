@@ -5,10 +5,7 @@ public class Calculadora {
 
     public static void main(String[] args) {
 
-        Numero numero1 = new Numero();
-        Numero numero2 = new Numero();
-        Numero resultado = new Numero();
-
+        System.out.println("Menu calculadora");
         boolean sistema = true;
         while (sistema) {
             int opcao = teclado.nextInt();
@@ -30,6 +27,7 @@ public class Calculadora {
                     multiplicarDoisNumeros();
                     break;
                 default:
+                    System.out.println("Digite um valor válido");
 
             }
 
@@ -38,13 +36,18 @@ public class Calculadora {
     }
 
     public static void somarDoisNumeros() {
+        Numero numero1 = new Numero();
+        Numero numero2 = new Numero();
+        Numero resultado = new Numero();
+
         System.out.println("Digite um valor:");
-    //    numero1.setValor(teclado.nextDouble());
+        numero1.setValor(teclado.nextDouble());
 
         System.out.println("Digite outro valor");
-   //     numero2.setValor(teclado.nextDouble());
+        numero2.setValor(teclado.nextDouble());
 
-   //     resultado.setValor(numero1.getValor() + numero2.getValor());
+        resultado.setValor(numero1.getValor() + numero2.getValor());
+        System.out.println(resultado.getValor());
     }
 
     public static void subtrairDoisNumeros() {
