@@ -36,29 +36,62 @@ public class Calculadora {
     }
 
     public static void somarDoisNumeros() {
-        Numero numero1 = new Numero();
-        Numero numero2 = new Numero();
-        Numero resultado = new Numero();
+        double numero1 = teclado.nextDouble();
+        double numero2 = teclado.nextDouble();
+        double resultado = teclado.nextDouble();
 
         System.out.println("Digite um valor:");
-        numero1.setValor(teclado.nextDouble());
+//        numero1.setValor(teclado.nextDouble());
 
         System.out.println("Digite outro valor");
-        numero2.setValor(teclado.nextDouble());
+//        numero2.setValor(teclado.nextDouble());
 
-        resultado.setValor(numero1.getValor() + numero2.getValor());
-        System.out.println(resultado.getValor());
+//        resultado.setValor(numero1.getValor() + numero2.getValor());
+//        System.out.println(resultado.getValor());
     }
 
     public static void subtrairDoisNumeros() {
+        double numero1 = teclado.nextDouble();
+        double numero2 = teclado.nextDouble();
+        double resultado = teclado.nextDouble();
 
+        System.out.println("Digite um valor:");
+//        numero1.setValor(teclado.nextDouble());
+
+        System.out.println("Digite outro valor");
+//        numero2.setValor(teclado.nextDouble());
+
+//        resultado.setValor(numero1.getValor() - numero2.getValor());
+//        System.out.println(resultado.getValor());
     }
 
     public static void multiplicarDoisNumeros() {
+       double numero1 = teclado.nextDouble();
+       double numero2 = teclado.nextDouble();
+       double resultado = teclado.nextDouble();
 
+        System.out.println("Digite um valor:");
+//        numero1.setValor(teclado.nextDouble());
+
+        System.out.println("Digite outro valor");
+//        numero2.setValor(teclado.nextDouble());
+
+//        resultado.setValor(numero1.getValor() * numero2.getValor());
+//        System.out.println(resultado.getValor());
     }
 
     public static void dividirDoisNumeros() {
+        double numero1 = teclado.nextDouble();
+        double numero2 = teclado.nextDouble();
+        double resultado = teclado.nextDouble();
 
+        System.out.println("Digite um valor:");
+//        numero1.setValor(teclado.nextDouble());
+
+        System.out.println("Digite outro valor");
+//        numero2.setValor(teclado.nextDouble());
+
+//        resultado.setValor(numero1.getValor() / numero2.getValor());
+//        System.out.println(resultado.getValor());
     }
-}
+    }
